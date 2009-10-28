@@ -1,0 +1,19 @@
+#TITLE=CSS
+; EditPlus Auto-completion file v1.0 written by Lin.x (http://www.lineks.cn).
+; This file is provided as a default auto-completion file for CSS.
+
+#CASE=y
+
+#T=C
+/**^!**/
+#T=M
+/*
+*
+*
+*/
+#T=MA
+margin:^!;
+#T=PA
+padding:^!;
+#T=FS
+font-size:^!;
