@@ -2,6 +2,18 @@
 ;29th July 2005
 #TITLE=PHP 5.0.4
 #CASE=y
+#T=A
+array(^!)
+#T=T
+$this->^!
+#T=P
+print_a(^!);
+#T=E
+echo ^!
+#T=GCM
+get_class_methods();
+#T=GIF
+get_include_files();
 #T=if
 if(^!) {
 }
