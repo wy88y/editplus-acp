@@ -8297,3 +8297,10 @@ zlib_get_coding_type(^!)
 xdebug_start_trace();
 #T=x_e_
 xdebug_stop_trace();
+#T=C
+	/*
+	*       ^!
+	*       @param 
+	*       @author Lin.x
+	*       @date   ^d
+	*/
