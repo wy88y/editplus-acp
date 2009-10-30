@@ -6,6 +6,8 @@
 array(^!)
 #T=T
 $this->^!
+#T=Du
+die(dump(^!));
 #T=P
 print_a(^!);
 #T=E
