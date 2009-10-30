@@ -17,3 +17,7 @@ margin:^!;
 padding:^!;
 #T=FS
 font-size:^!;
+#T=B
+border:^!;
+#T=B1
+border:1px solid #^!;
