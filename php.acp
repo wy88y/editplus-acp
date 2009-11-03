@@ -12,6 +12,20 @@ die(dump(^!));
 print_a(^!);
 #T=PE
 die(print_a(^!));
+#T=GE
+$_GET['^!']
+#T=PO
+$_POST['^!']
+#T=F
+function ^!(){
+}
+#T=PHP
+<?php
+	^!
+?>
+#T=PF
+public function ^!(){
+}
 #T=E
 echo ^!
 #T=GCM
