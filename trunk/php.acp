@@ -10,6 +10,8 @@ $this->^!
 die(dump(^!));
 #T=P
 print_a(^!);
+#T=PE
+die(print_a(^!));
 #T=E
 echo ^!
 #T=GCM
