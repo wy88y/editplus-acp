@@ -137,10 +137,10 @@
 <style type="text/css">
 	^!
 </style>
-#T=DIV
-<div class="">
-	^!
-</div>
+#T=DC
+<div class="^!"></div>		   
+#T=D
+<div id="^!"></div>
 #T=SPAN
 <span class="">^!</span>
 #T=LINKSTYLE
