@@ -9,6 +9,8 @@ echo sprintf("%0.4f", microtime(true) - $start);
 array(^!)
 #T=T
 $this->^!
+#T=V
+$this->view->^!
 #T=Du
 die(dump(^!));
 #T=P
