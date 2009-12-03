@@ -1,7 +1,9 @@
 #TITLE=Log
-;Let the log & sql files colorful like others
+;syntax the log & sql files more colorful
+;
 ;by Lin.x
-
+	   
+#DELIMITER=,(){}[]-+*%/="'~!&|<>?:;.#@
 #LINECOMMENT=--
 #LINECOMMENT2=#
 #QUOTATION1='
@@ -21,9 +23,21 @@ WHERE
 JOIN
 UNION
 CREATE
-
+OPTION
+KEY
+VIEW
+COMMENT
+IS
+NOT
+NULL
+ENGINE
+DEFAULT
+CHARSET
+ALTER
 
 #KEYWORD=Properites
+LOCK
+UNLOCK
 VALUES
 AND
 OR
@@ -36,8 +50,11 @@ GROUP
 BY
 ORDER
 IF
+HAVING
+AUTO_INCREMENT
+PRIMARY
 
-#KEYWORD=Join Type
+#KEYWORD=JOIN TYPE
 INNER
 LEFT
 RIGHT
@@ -50,4 +67,20 @@ EXISTS
 Runtime
 SQL
 SET
-SHOW
+SHOW   
+
+#KEYWORD=Functions
+SUBSTR
+REPLACE
+DATE
+FROM_UNIXTIME
+LENGTH
+CONCAT
+
+#KEYWORD=DATE TYPE
+INT
+SMALLINT
+TEXT
+BOOL
+MyISAM  
+VARCHAR
