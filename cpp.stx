@@ -65,11 +65,9 @@ try
 typedef
 union
 unsigned
-using
 virtual
 void
 volatile
-wchar_t
 while
 __asm
 __fastcall
@@ -80,7 +78,6 @@ __inline
 __multiple_inheritance
 __single_inheritance
 __virtual_inheritance
-
 #KEYWORD=Compiler directives
 define
 error
@@ -97,4 +94,20 @@ undef
 if
 else
 endif
+#KEYWORD=C51 Keywords
+sbit
+sfr
+#KEYWORD=C51 Functions
+_nop_
+SCON
+TMOD
+TCON
+TH1
+TL1
+TI
+TR1
+P0
+P1
+P2
+P3
 #

@@ -11,6 +11,8 @@
 
 #T=B
 <b>^!</b>
+#T=EM
+<em>^!</em>
 #T=I
 <i>^!</i>
 #T=U
@@ -47,6 +49,10 @@
 <pre>^!</pre>
 #T=<!
 <!-- ^! -->
+#T=LIA
+<li>^!</li>
+#T=LI
+<li><a href="#">^!</a></li>
 #T=UL
 <ul>
 	<li>^!</li>
@@ -77,68 +83,115 @@
 </map>
 #T=SCRIPT
 <script type="text/javascript">
-<!--
 	^!
-//-->
 </script>
 #T=APPLET
 <applet code="^!" width="" height="">
 </applet>
 #T=TEXT
-<input type="text" id="^!" />
+<input type="text" name="^!"  value=""/>
 #T=SELECT
 <select id="">
 	<option value="" selected="selected">^!</option>
 	<option value=""></option>
 </select>
 #T=RADIO
-<input type="radio" id="^!" />
+<input type="radio" name="^!"  value=""/>
 #T=CHECKBOX
-<input type="checkbox" id="^!" />
+<input type="checkbox" name="^!"  value=""/>
 #T=TEXTAREA
-<textarea id="" rows="" cols="">^!</textarea>
+<textarea name="" rows="" cols="">^!</textarea>
 #T=RESET
 <input type="reset" />
 #T=SUBMIT
 <input type="submit" />
 #T=PASSWORD
-<input type="password" id="^!" />
+<input type="password" name="^!"  value=""/>
+#T=FILE
+<input type="file" name="^!" />
 #T=HIDDEN
-<input type="hidden" id="^!" />
+<input type="hidden" name="^!" />
 #T=FORMIMAGE
 <input type="image" src="^!" />
 #T=BUTTON
-<input type="button" value="^!" onclick="" />
+<input type="button" value="^!" name="" />
 #T=FONT
 <font size="" color="">^!</font>
 #T=TABLE
 <table>
-
-#T=TABLE2
-</table>
-#T=TR
 	<tr>
-
-#T=TR2
-	</tr>
-
-#T=TD
 		<td>^!</td>
-
-#T=TD2
-		<td></td>
-
+	</tr>
+</table>
+#T=TD
+<tr>
+	<td>^!</td>
+</tr>
+#T=TH	
+<tr>
+	<th>^!</th>
+</tr>
 #T=OBJECT
-<object id="%s" width="^!" height="" classid="clsid:%s">
-</object>
+<object id="%s" width="^!" height="" classid="clsid:%s"></object>
 #T=STYLE
 <style type="text/css">
 	^!
 </style>
-#T=DIV
-<div id="" class="">
-	^!
-</div>
+#T=DC
+<div class="^!"></div>		   
+#T=D
+<div id="^!"></div>
 #T=SPAN
 <span class="">^!</span>
-#
+#T=LINKSTYLE
+<link rel="stylesheet" href="^!.css" type="text/css" media="all" />
+#T=LINKSCRIPT
+<script type="text/javascript" src="^!.js"></script>
+#T=if
+{if }
+{else}
+{/if}
+#T=loop
+{loop ^! $k $v}
+{/loop}
+#T=IF
+<?php if($^!): ?>
+<?php else: ?>
+<?php endif; ?>
+#T=ELSEIF
+<?php elseif($^!): ?>
+#T=FOREACH
+<?php foreach($^! as $k=>$v): ?>
+	<?=$v['']?>
+
+<?php endforeach; ?>
+#T=FOREACHV
+<?php foreach($^! as $v): ?>
+	<?=$v['']?>
+
+<?php endforeach; ?>
+#T=FOREACHVAL
+<?php foreach($^! as $val): ?>
+	<?=$val['']?>
+
+<?php endforeach; ?>
+#T=FOREACHKV
+<?php foreach($^! as $key => $val): ?>
+	<?=$val['']?>
+
+<?php endforeach; ?>
+#T=ECHO
+<?=$^!?>
+#T=ECHOV
+<?=$v['^!']?>
+#T=ECHOVAL
+<?=$val['^!']?>
+#T=LOOP
+{loop $^! $v}
+{/loop}
+#T=LOOPK
+{loop $^! $k $v}
+{/loop}
+#T=LOOPKV
+{loop $^! $key $val}
+{/loop}

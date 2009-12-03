@@ -71,4 +71,8 @@ lock (^!)
 struct ^!
 {
 }
-#
+
+#T=READY
+$(document).ready(function(){
+	^!
+});
