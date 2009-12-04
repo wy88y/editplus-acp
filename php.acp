@@ -15,6 +15,9 @@ $this->view->^!
 die(dump(^!));
 #T=P
 print_a(^!);
+#T=DBG
+include 'lib.debug.php';
+^!
 #T=PE
 die(print_a(^!));
 #T=GE
