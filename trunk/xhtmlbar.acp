@@ -9,6 +9,8 @@
 
 #CASE=y
 
+#T=C
+<!--^!-->
 #T=B
 <b>^!</b>
 #T=EM
@@ -148,9 +150,9 @@
 #T=LINKSCRIPT
 <script type="text/javascript" src="^!.js"></script>
 #T=if
-{if }
-{else}
-{/if}
+{if ^!}{/if}
+#T=ifelse
+{if ^!}{else}{/if}
 #T=loop
 {loop ^! $k $v}
 {/loop}
@@ -195,3 +197,7 @@
 #T=LOOPKV
 {loop $^! $key $val}
 {/loop}
+#T=PHP
+<?php
+	^!
+?>

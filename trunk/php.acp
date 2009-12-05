@@ -13,6 +13,12 @@ $this->^!
 $this->view->^!
 #T=Du
 die(dump(^!));
+#T=DBG
+include 'lib.debug.php';^!
+#T=CONSTRUCT
+public function __construct(){
+	parent::__construct();^!
+}
 #T=P
 print_a(^!);
 #T=DBG
