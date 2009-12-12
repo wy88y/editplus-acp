@@ -160,6 +160,9 @@
 <?php if($^!): ?>
 <?php else: ?>
 <?php endif; ?>
+#T=WHILE
+<?php while(^!):?>
+<?php endwhile;?>
 #T=ELSEIF
 <?php elseif($^!): ?>
 #T=FOREACH
