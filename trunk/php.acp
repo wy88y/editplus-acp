@@ -2,6 +2,16 @@
 ;29th July 2005
 #TITLE=PHP 5.0.4
 #CASE=y
+#T=xx	
+'^!'
+#T=cc	
+"^!"
+#T=zz
+(^!)
+#T=ar
+=>array(^!)
+#T=mt
+->^!()
 #T=RUNTIME
 $start = microtime(true);
 echo sprintf("%0.4f", microtime(true) - $start);
@@ -24,8 +34,8 @@ print_a(^!);
 #T=DBG
 include 'lib.debug.php';
 ^!
-#T=PE
-die(print_a(^!));
+#T=dp
+dp(^!);
 #T=GE
 $_GET['^!']
 #T=PO
@@ -33,6 +43,15 @@ $_POST['^!']
 #T=F
 function ^!(){
 }
+#T=pr
+print_r(^!);
+#T=di
+die(^!);
+#T=hsc
+htmlspecialchars(^!);
+#T=PRC
+date_default_timezone_set('PRC');
+^!
 #T=PHP
 <?php
 	^!
@@ -45,7 +64,7 @@ echo ^!
 #T=GCM
 get_class_methods();
 #T=GIF
-get_include_files();
+get_included_files();
 #T=if
 if(^!) {
 }
@@ -66,7 +85,7 @@ switch($^!) {
 case :
 }
 #
-#T=do
+#T=DO
 do {
 }
 #
@@ -94,10 +113,6 @@ try{
  ^!
 ?>
 #
-#T=tags
-<?php
- ^!
-?>
 #T=C
 /*
 *       ^!
