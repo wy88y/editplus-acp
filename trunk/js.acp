@@ -1,0 +1,17 @@
+#TITLE=JAVASCRPIT
+; Lin.x (http://www.lineks.cn)
+
+#CASE=y
+
+#T=F
+function ^!(){
+}
+#T=$
+$('^!')
+#T=for
+for(^!){
+}
+#T=READY
+$(document).ready(function(){
+	^!
+});
