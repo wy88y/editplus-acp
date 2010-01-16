@@ -8,6 +8,12 @@ function ^!(){
 }
 #T=$
 $('^!')
+#T=T
+$(this)
+#T=each
+each(function(){
+	^!
+});
 #T=for
 for(^!){
 }

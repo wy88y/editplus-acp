@@ -2,11 +2,13 @@
 ; SQL syntax file written by LuXiang.
 
 #DELIMITER=,(){}[]-+*%/="'~!&|<>?:;.
-#QUOTATION1='
-#QUOTATION2="
-#LINECOMMENT=--
+#LINECOMMENT=#
 #COMMENTON=/*
-#COMMENTOFF=*/
+#COMMENTOFF=*/ 
+#QUOTATION1='
+#QUOTATION2=`
+#QUOTATION3="
+#NUMBER_PATTERN=cpp
 
 #SPECIAL_STX=SQL
 
