@@ -43,6 +43,10 @@ $_POST['^!']
 #T=F
 function ^!(){
 }
+#T=p
+p(^!);
+#T=k
+(^!)
 #T=pr
 print_r(^!);
 #T=di
@@ -114,9 +118,25 @@ try{
 ?>
 #
 #T=C
-/*
-*       ^!
-*       @param 
-*       @author Lin.x
-*       @date   ^d
-*/
+/**
+ *		^!
+ *
+ *		@param 
+ *		@return 
+ */  
+#T=CT
+ /**
+ *		^!
+ * 
+ *		@category 
+ *		@package 
+ *		@copyright Copyright (c) 2008 Lin.X (http://www.lineks.cn)
+ *		@license GNU General Public License 2.0
+ *		@version $Id$
+ */
+#T=gls
+getLastSql()
+#T=lw
+Log::write(^!);
+#T=TZ
+date_default_timezone_set('PRC');
