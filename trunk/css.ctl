@@ -27,3 +27,5 @@ margin:^!;
 padding:^!;
 #T=BG
 background:^!;
+#T=TA
+text-align:^!;

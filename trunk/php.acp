@@ -2,6 +2,12 @@
 ;29th July 2005
 #TITLE=PHP 5.0.4
 #CASE=y
+#T=db	
+db()->^!
+#T=me2	
+^!();
+#T=.1	
+'^!'
 #T=xx	
 '^!'
 #T=cc	
@@ -9,6 +15,8 @@
 #T=zz
 (^!)
 #T=ar
+=>
+#T=ar2
 =>array(^!)
 #T=mt
 ->^!()
@@ -24,7 +32,7 @@ $this->view->^!
 #T=Du
 die(dump(^!));
 #T=DBG
-include 'q:\_lib\debug.php';^!
+include 'E:\code\lib\debug.php';^!
 #T=CONSTRUCT
 public function __construct(){
 	parent::__construct();^!
@@ -113,8 +121,14 @@ try{
 <?php
  ^!
 ?>
-#
-#T=C
+#T=CC
+/**
+*
+*               @Description
+*               @Author
+*
+*/
+#T=FC
 /**
  *		^!
  *
@@ -127,7 +141,7 @@ try{
  * 
  *		@category 
  *		@package 
- *		@copyright Copyright (c) 2008 Lin.X (http://www.lineks.cn)
+ *		@copyright Copyright (c) 2010 Lin.X
  *		@license GNU General Public License 2.0
  *		@version $Id$
  */
@@ -137,3 +151,9 @@ try{
 Log::write(^!);
 #T=TZ
 date_default_timezone_set('PRC');
+#T=GLS
+getLastSql();
+#T=je
+json_encode(^!);
+#T=jd
+json_decode(^!);
