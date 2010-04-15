@@ -16,6 +16,9 @@ $(this)
 each(function(){
 	^!
 });
+#T=if
+if(^!){
+}
 #T=for
 for(^!){
 }
@@ -23,3 +26,6 @@ for(^!){
 $(document).ready(function(){
 	^!
 });
+#T=switch
+switch(^!){
+}

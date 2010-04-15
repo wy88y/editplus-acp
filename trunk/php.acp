@@ -157,3 +157,7 @@ getLastSql();
 json_encode(^!);
 #T=jd
 json_decode(^!);
+#T=vd
+var_dump(^!);
+#T=gef
+get_extension_funcs(^!);
