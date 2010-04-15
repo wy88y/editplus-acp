@@ -4,11 +4,14 @@ EditPlus Cliptext Library v1.0 written by ES-Computing.
 This file is provided as a sample Cliptext library of EditPlus.
 #SORT=y
 
-
+#T=kk
+{^!}
 #T=C
 /**^!**/
 #T=FL
 float:left;
+#T=LS
+list-style:none;
 #T=FR
 float:right;
 #T=Le
