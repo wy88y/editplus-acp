@@ -14,9 +14,9 @@ float:left;
 list-style:none;
 #T=FR
 float:right;
-#T=Le
+#T=L
 left;
-#T=Ri
+#T=R
 right;
 #T=He
 height
@@ -32,3 +32,5 @@ padding:^!;
 background:^!;
 #T=TA
 text-align:^!;
+#T=FF
+font-family:^!;
