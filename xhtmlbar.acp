@@ -204,3 +204,5 @@
 <?php
 	^!
 ?>
+#T=LABEL
+<label>^!</label>
