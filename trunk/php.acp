@@ -163,3 +163,7 @@ var_dump(^!);
 get_extension_funcs(^!);
 #T=gdc
 get_declared_classes(^!);
+#T=pre
+echo '<pre>';
+print_r(^!);
+echo '</pre>';
