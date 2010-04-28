@@ -1,13 +1,13 @@
 ;by Bernhard Kirchen (schlimmchen)
 ;29th July 2005
 #TITLE=PHP 5.0.4
-#CASE=y
-#T=db	
-db()->^!
-#T=me2	
-^!();
-#T=.1	
-'^!'
+#CASE=y     
+#T=mt
+->^!()
+#T=mt2	
+->^!
+#T=mt3	
+->^!();
 #T=xx	
 '^!'
 #T=cc	
@@ -18,8 +18,6 @@ db()->^!
 =>
 #T=ar2
 =>array(^!)
-#T=mt
-->^!()
 #T=RUNTIME
 $start = microtime(true);
 echo sprintf("%0.4f", microtime(true) - $start);
@@ -167,3 +165,17 @@ get_declared_classes(^!);
 echo '<pre>';
 print_r(^!);
 echo '</pre>';
+#T={
+{^!}
+#T=[
+[^!]
+#T=(
+(^!)
+#T=oo
+->^!
+#T='
+'^!'
+#T="
+"^!"
+#T=1.
+->^!

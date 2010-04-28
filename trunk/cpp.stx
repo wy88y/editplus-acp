@@ -787,6 +787,7 @@ equal_range
 binary_search
 merge
 inplace_merge
+include
 includes
 set_union
 set_intersection
