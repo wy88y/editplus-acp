@@ -68,9 +68,9 @@ public function ^!(){
 }
 #T=E
 echo ^!
-#T=GCM
+#T=gcm
 get_class_methods();
-#T=GIF
+#T=gif
 get_included_files();
 #T=if
 if(^!) {
