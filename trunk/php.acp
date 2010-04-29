@@ -165,6 +165,12 @@ get_declared_classes(^!);
 echo '<pre>';
 print_r(^!);
 echo '</pre>';
+#T=_d
+{^!}
+#T=_z
+[^!]
+#T=_x
+(^!)
 #T='
 '^!'
 #T="
