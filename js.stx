@@ -160,6 +160,7 @@ Unlink
 Unselect
 
 #KEYWORD=Objects
+console
 !DOCTYPE
 ActiveXObject
 Array
@@ -1012,6 +1013,11 @@ onsyncrestored
 ontimeerror
 
 #KEYWORD=Methods
+log
+warn
+error
+info
+debug
 abs
 acos
 add

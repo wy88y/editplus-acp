@@ -112,7 +112,7 @@
 #T=FILE
 <input type="file" name="^!" />
 #T=HIDDEN
-<input type="hidden" name="^!" />
+<input type="hidden" name="^!" value="" />
 #T=FORMIMAGE
 <input type="image" src="^!" />
 #T=BUTTON

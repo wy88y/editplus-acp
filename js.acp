@@ -29,3 +29,13 @@ $(document).ready(function(){
 #T=switch
 switch(^!){
 }
+#T=docum
+document
+#T=navig
+navigator
+#T=userA
+userAgent
+#T=getEl
+getElementById
+#T=log
+window.console.log(^!);

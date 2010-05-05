@@ -171,10 +171,6 @@ echo '</pre>';
 [^!]
 #T=_x
 (^!)
-#T='
-'^!'
-#T="
-"^!"
 #T=ia
 in_array(^!)
 #T=ia2
@@ -191,8 +187,6 @@ substr(^!)
 file_get_contents(^!)
 #T=pma
 preg_match_all(^!)
-#T=count
-count(^!)
 #T=fopen
 fopen(^!)
 #T=fwrit
@@ -201,3 +195,9 @@ fwrite(^!)
 explode(^!)
 #T=strto
 strtolower(^!)
+#T=gh
+get_headers(^!)
+#T=fe
+function_exists(^!)
+#T=au
+array_unique(^!)
