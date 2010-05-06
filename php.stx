@@ -20,11 +20,11 @@
 #ESCAPE=\
 #PREFIX1=
 #PREFIX2=
-#PREFIX3=$
+#PREFIX3=
 #PREFIX4=
 #PREFIX5=
-#SUFFIX1=
-#SUFFIX2=
+#SUFFIX1='
+#SUFFIX2="
 #SUFFIX3=
 #SUFFIX4=
 #SUFFIX5=
@@ -34,28 +34,8 @@
 #SCRIPT_END=?>
 #NUMBER_PATTERN=cpp
 #SKIP_QUOTE=y
-#NESTED_COMMENT=n
-#KEYWORD=Reserved words [1]
--
-!
-$
-%
-&
-/
-:
-@
-|
-+
-<
-=
->
-{
-}
-__CLASS__
-__FILE__
-__FUNCTION__
-__LINE__
-__METHOD__
+#NESTED_COMMENT=n		    
+#KEYWORD=Reserved words [1]      
 __sleep
 __wakeup
 abstract
@@ -89,7 +69,6 @@ endif
 endswitch
 endwhile
 eval
-exception
 exit
 extends
 false
@@ -118,7 +97,6 @@ namespace
 new
 not
 null
-object
 old_function
 or
 parent
@@ -149,58 +127,6 @@ var
 void
 while
 xor
-; *******************************************************************
-; Smarty 2.6.7
-autoload_filters
-cache_dir
-cache_handler_func
-cache_lifetime
-cache_modified_check
-caching
-capture
-compile_check
-compile_dir
-compile_id
-compiler_class
-config_dir
-cookies
-debug_tpl
-debugging
-debugging_ctrl
-default_modifiers
-default_template_handler_func
-env
-force_compile
-foreach
-get
-global_assign
-id
-left_delimiter
-now
-page
-PATH
-php_handling
-plugins_dir
-post
-request
-request_vars_order
-right_delimiter
-section
-secure_dir
-security
-security_settings
-server
-SERVER_NAME
-session
-show_info_header
-show_info_include
-template
-template_dir
-trusted_dir
-undefined
-use_sub_dirs
-username
-
 ; *******************************************************************
 ; *******************************************************************
 ; *******************************************************************
@@ -1787,7 +1713,8 @@ getLineWidth
 getListIndex
 getMetaData
 getMetaList
-getMethod
+getMethod		 
+getMessage
 getMiterLimit
 getModified
 getMTime
@@ -6500,61 +6427,26 @@ setInfoClass
 ; *******************************************************************
 ; *******************************************************************
 ; *******************************************************************
-#KEYWORD=Predefined Variables [3]
-_COOKIE
-_ENV
-_FILES
-_GET
-_POST
-_REQUEST
-_SERVER
-_SESSION
-argc
-argv
-AUTH_TYPE
-DOCUMENT_ROOT
-GATEWAY_INTERFACE
-GLOBALS
-HTTP_ACCEPT
-HTTP_ACCEPT_CHARSET
-HTTP_ACCEPT_ENCODING
-HTTP_ACCEPT_LANGUAGE
-HTTP_CONNECTION
-HTTP_COOKIE_VARS
-HTTP_ENV_VARS
-HTTP_GET_VARS
-HTTP_HOST
-HTTP_POST_FILES
-HTTP_POST_VARS
-HTTP_RAW_POST_DATA
-HTTP_REFERER
-HTTP_SERVER_VARS
-HTTP_USER_AGENT
-PATH_TRANSLATED
-PHP_AUTH_PW
-PHP_AUTH_TYPE
-PHP_AUTH_USER
-php_errormsg
-PHP_SELF
-QUERY_STRING
-REMOTE_ADDR
-REMOTE_HOST
-REMOTE_PORT
-REQUEST_METHOD
-REQUEST_URI
-SCRIPT_FILENAME
-SCRIPT_NAME
-SERVER_ADMIN
-SERVER_NAME
-SERVER_PORT
-SERVER_PROTOCOL
-SERVER_SIGNATURE
-SERVER_SOFTWARE
+#KEYWORD=Predefined Variables [3]	
+$_COOKIE
+$_ENV
+$_FILES
+$_GET
+$_POST
+$_REQUEST
+$_SERVER
+$_SESSION
+$_COOKIE
+$GLOBALS
+$argc
+$argv
 
 ; *******************************************************************
 ; *******************************************************************
 ; *******************************************************************
-#keyword=Predefined Classes [4]
+#keyword=Predefined Classes [4]	    
+object
+exception
 __PHP_Incomplete_Class
 ArrayIterator
 ArrayObject
@@ -6802,7 +6694,51 @@ SQLiteException
 SQLite
 SQLiteStmt
 
-#keyword=Predefined Constants [5]
+#keyword=Predefined Constants [5]	
+AUTH_TYPE
+DOCUMENT_ROOT
+GATEWAY_INTERFACE
+GLOBALS
+HTTP_ACCEPT
+HTTP_ACCEPT_CHARSET
+HTTP_ACCEPT_ENCODING
+HTTP_ACCEPT_LANGUAGE
+HTTP_CONNECTION
+HTTP_COOKIE_VARS
+HTTP_ENV_VARS
+HTTP_GET_VARS
+HTTP_HOST
+HTTP_POST_FILES
+HTTP_POST_VARS
+HTTP_RAW_POST_DATA
+HTTP_REFERER
+HTTP_SERVER_VARS
+HTTP_USER_AGENT
+PATH_TRANSLATED
+PHP_AUTH_PW
+PHP_AUTH_TYPE
+PHP_AUTH_USER
+php_errormsg
+PHP_SELF
+QUERY_STRING
+REMOTE_ADDR
+REMOTE_HOST
+REMOTE_PORT
+REQUEST_METHOD
+REQUEST_URI
+SCRIPT_FILENAME
+SCRIPT_NAME
+SERVER_ADMIN
+SERVER_NAME
+SERVER_PORT
+SERVER_PROTOCOL
+SERVER_SIGNATURE
+SERVER_SOFTWARE		      
+__CLASS__
+__FILE__
+__FUNCTION__
+__LINE__
+__METHOD__
 __COMPILER_HALT_OFFSET__
 ABDAY_1
 ABDAY_2
@@ -9976,9 +9912,32 @@ xdebug_stop_code_coverage
 xdebug_get_code_coverage
 xdebug_get_function_count
 xdebug_dump_superglobals
-
 xdebug_cc_dead_code
 xdebug_cc_unused
 xdebug_trace_append
 xdebug_trace_computerized
-xdebug_trace_html
+xdebug_trace_html		     
+#KEYWORD=Reserved Item
+-
+!
+%
+&
+/
+:
+@
+|
++
+<
+=
+>
+{
+}
+,
+(
+)
+[
+]
+<?php
+<?	 
+?>    
+;		
