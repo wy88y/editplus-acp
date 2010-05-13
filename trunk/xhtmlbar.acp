@@ -106,7 +106,7 @@
 #T=RESET
 <input type="reset" />
 #T=SUBMIT
-<input type="submit" />
+<input type="submit" value="提交^!"/>
 #T=PASSWORD
 <input type="password" name="^!"  value=""/>
 #T=FILE
