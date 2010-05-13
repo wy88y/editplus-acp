@@ -23,6 +23,7 @@
 #PREFIX3=
 #PREFIX4=
 #PREFIX5=
+#PREFIX8=$
 #SUFFIX1='
 #SUFFIX2="
 #SUFFIX3=
@@ -6428,18 +6429,19 @@ setInfoClass
 ; *******************************************************************
 ; *******************************************************************
 #KEYWORD=Predefined Variables [3]	
-$_COOKIE
-$_ENV
-$_FILES
-$_GET
-$_POST
-$_REQUEST
-$_SERVER
-$_SESSION
-$_COOKIE
-$GLOBALS
-$argc
-$argv
+this
+_COOKIE
+_ENV
+_FILES
+_GET
+_POST
+_REQUEST
+_SERVER
+_SESSION
+_COOKIE
+GLOBALS
+argc
+argv
 
 ; *******************************************************************
 ; *******************************************************************
@@ -9937,4 +9939,6 @@ xdebug_trace_html
 )
 [
 ]
-;		
+;					 
+#KEYWORD=Variable[6]
+$
