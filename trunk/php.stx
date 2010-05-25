@@ -18,11 +18,6 @@
 #COMMENTON2=
 #COMMENTOFF2=
 #ESCAPE=\
-#PREFIX1=
-#PREFIX2=
-#PREFIX3=
-#PREFIX4=
-#PREFIX5=
 #PREFIX8=$
 #SUFFIX1='
 #SUFFIX2="
@@ -35,7 +30,9 @@
 #SCRIPT_END=?>
 #NUMBER_PATTERN=cpp
 #SKIP_QUOTE=y
-#NESTED_COMMENT=n		    
+#NESTED_COMMENT=y		
+#AUTOCASE=y
+#AUTOCOMPLETE_QUOTE=	y
 #KEYWORD=Reserved words [1]      
 __sleep
 __wakeup
@@ -6429,7 +6426,20 @@ setInfoClass
 ; *******************************************************************
 ; *******************************************************************
 #KEYWORD=Predefined Variables [3]	
-this
+<<<<<<< .mine$
+$_COOKIE
+$_ENV
+$_FILES
+$_GET
+$_POST
+$_REQUEST
+$_SERVER
+^$_SESSION
+$_COOKIE
+$GLOBALS
+$argc
+$argv
+=======this
 _COOKIE
 _ENV
 _FILES
@@ -6442,7 +6452,7 @@ _COOKIE
 GLOBALS
 argc
 argv
-
+>>>>>>> .theirs
 ; *******************************************************************
 ; *******************************************************************
 ; *******************************************************************
@@ -9939,6 +9949,7 @@ xdebug_trace_html
 )
 [
 ]
-;					 
+<<<<<<< .mine;		     
+#KEYWORD=Variables=======;					 
 #KEYWORD=Variable[6]
-$
+$>>>>>>> .theirs

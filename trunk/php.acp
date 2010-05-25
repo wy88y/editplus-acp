@@ -201,3 +201,8 @@ get_headers(^!)
 function_exists(^!)
 #T=au
 array_unique(^!)
+#T=fpc
+file_put_contents(^!)
+#T=elseif
+elseif(^!){
+}
