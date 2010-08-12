@@ -1,8 +1,9 @@
-#TITLE=Style Sheet (CSS2)
+#TITLE=ÑשÊ½±ם (CSS2)
 #INFO
 Cliptext Library for CSS2 written by ES-Computing.
 This file is provided as a sample Cliptext library of EditPlus.
 #SORT=y
+
 #T=azimuth: 
 #T=background: 
 #T=background-attachment: 
