@@ -34,11 +34,11 @@
 #T=nb
 &nbsp;
 #T=A
-<A HREF="">^!</A>
+<A href="">^!</A>
 #T=HR
 <HR>
 #T=IMG
-<IMG SRC="" WIDTH="" HEIGHT="" BORDER="0" ALT="^!">
+<IMG src="" width="" height="" border="0" alt="^!">
 #T=CENTER
 <CENTER>^!</CENTER>
 #T=BLOCKQUOTE
@@ -63,54 +63,54 @@
 	<DD>
 </DL>
 #T=FORM
-<FORM METHOD=POST ACTION="">
+<FORM method="post" action="">
 	^!
 </FORM>
 #T=FRAME
-<FRAMESET ROWS="^!," COLS=",">
-	<FRAME SRC="" NAME="">
-	<FRAME SRC="" NAME="">
+<FRAMESET rows="^!," cols=",">
+	<FRAME src="" name="">
+	<FRAME src="" name="">
 </FRAMESET>
 #T=MAP
-<MAP NAME="^!">
-	<AREA SHAPE="" HREF="" COORDS="" ALT="">
+<MAP name="^!">
+	<AREA shape="" href="" coords="" alt="">
 </MAP>
 #T=SCRIPT
-<SCRIPT LANGUAGE="JavaScript">
+<SCRIPT type="text/javascript">
 <!--
 	^!
 //-->
 </SCRIPT>
 #T=APPLET
-<APPLET CODE="^!" WIDTH="" HEIGHT="">
+<APPLET code="^!" width="" height="">
 </APPLET>
 #T=TEXT
-<INPUT TYPE="text" NAME="^!">
+<INPUT type="text" name="^!">
 #T=SELECT
-<SELECT NAME="">
-	<OPTION VALUE="" SELECTED>^!
-	<OPTION VALUE="">
+<SELECT name="">
+	<OPTION value="" selected>^!
+	<OPTION value="">
 </SELECT>
 #T=RADIO
-<INPUT TYPE="radio" NAME="^!">
+<INPUT type="radio" name="^!">
 #T=CHECKBOX
-<INPUT TYPE="checkbox" NAME="^!">
+<INPUT type="checkbox" name="^!">
 #T=TEXTAREA
-<TEXTAREA NAME="" ROWS="" COLS="">^!</TEXTAREA>
+<TEXTAREA name="" rows="" cols="">^!</TEXTAREA>
 #T=RESET
-<INPUT TYPE="reset">
+<INPUT type="reset">
 #T=SUBMIT
-<INPUT TYPE="submit">
+<INPUT type="submit">
 #T=PASSWORD
-<INPUT TYPE="password" NAME="^!">
+<INPUT type="password" name="^!">
 #T=HIDDEN
-<INPUT TYPE="hidden" NAME="^!">
+<INPUT type="hidden" name="^!">
 #T=FORMIMAGE
-<INPUT TYPE="image" SRC="^!">
+<INPUT type="image" src="^!">
 #T=BUTTON
-<INPUT TYPE="button" VALUE="^!" ONCLICK="">
+<INPUT type="button" value="^!" onclick="">
 #T=FONT
-<FONT SIZE="" COLOR="">^!</FONT>
+<FONT size="" color="">^!</FONT>
 #T=TABLE
 <TABLE>
 
@@ -129,16 +129,16 @@
 	<TD></TD>
 
 #T=OBJECT
-<OBJECT ID="%s" WIDTH="^!" HEIGHT="" CLASSID="CLSID:%s">
+<OBJECT id="%s" width="^!" height="" classid="CLSID:%s">
 </OBJECT>
 #T=STYLE
-<STYLE TYPE="text/css">
+<STYLE type="text/css">
 	^!
 </STYLE>
 #T=DIV
-<DIV ID="" CLASS="">
+<DIV id="" class="">
 	^!
 </DIV>
 #T=SPAN
-<SPAN CLASS="">^!</SPAN>
+<SPAN class="">^!</SPAN>
 #

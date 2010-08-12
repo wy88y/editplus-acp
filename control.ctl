@@ -1,4 +1,4 @@
-#TITLE=Control characters
+#TITLE=¿ØÖÆ×Ö·û
 #INFO
 Cliptext Library for control characters written by ES-Computing.
 This file is provided as a sample Clitext library of EditPlus.
