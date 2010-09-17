@@ -1,6 +1,6 @@
-;by Bernhard Kirchen (schlimmchen)
-;29th July 2005
-#TITLE=PHP 5.0.4
+;Lin.x
+;2010-8-12 14:23 
+#TITLE=PHP 5.3.2
 #CASE=y     
 #T=mt
 ->^!()
@@ -171,9 +171,9 @@ echo '</pre>';
 [^!]
 #T=_x
 (^!)
-#T=ia
+#T=inar
 in_array(^!)
-#T=ia2
+#T=isar
 is_array(^!)
 #T=empty
 empty(^!)
@@ -206,3 +206,7 @@ file_put_contents(^!)
 #T=elseif
 elseif(^!){
 }
+#T=gif
+get_included_files(^!)
+#T=gle
+get_loaded_extensions(^!)
