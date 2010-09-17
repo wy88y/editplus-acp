@@ -21,3 +21,11 @@ font-size:^!;
 border:^!;
 #T=B1
 border:1px solid #^!;
+#T=wd
+width:^!;
+#T=ht
+height:^!;
+#T=bg
+background:^!;
+#T=lh
+line-height:^!;
