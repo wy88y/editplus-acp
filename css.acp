@@ -29,3 +29,7 @@ height:^!;
 background:^!;
 #T=lh
 line-height:^!;
+#T=bc
+background-color:^!;
+#T=bd
+border:^!;
