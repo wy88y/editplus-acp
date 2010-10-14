@@ -331,6 +331,7 @@ __bases__
 __name__
 
 #KEYWORD=Built-in Functions
+exit
 abs
 all
 any
