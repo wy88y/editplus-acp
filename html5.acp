@@ -28,17 +28,10 @@
 
 #T=#js
 <script src="^!"></script>
-#T=#style
-<style type="text/css">
-	^!
-</style>
 #T=#css
 <link rel="stylesheet" href="^!" />
-#T=#script
-<script type="text/javascript">
-	^!
-</script>
 #
+
 ; Standard Text Elements.
 
 #T=#p
@@ -55,6 +48,8 @@
 <h5>^!</h5>
 #T=#h6
 <h6>^!</h6>
+#T=#p
+<p>^!</p>
 #
 
 ; HTML 5 Structural. Check To Update And Change
@@ -111,10 +106,12 @@
 #
 
 ; General Elements.
-
 #T=#div
 <div>^!</div>
-
+#T=#divc
+<div class="^!"></div>
+#T=#divi
+<div id="^!"></div>
 #T=#abbr
 <abbr>^!</abbr>
 #T=#time
@@ -157,7 +154,7 @@
 ; Forms.
 
 #T=#form
-<form method=post action="">
+<form method="post" action="">
 ^!
 </form>
 
@@ -221,42 +218,14 @@
 ; Tables. Shudder.
 
 #T=#table
-<table cellpadding="0" cellspacing="0">
-<tr>
-	<th>^!</th>
-</tr>   
-<tr>
-	<td></td>
-</tr>
+<table>
+^!
 </table>
 
 #T=#tr
 <tr>^!</tr>
 #T=#td
 <td>^!</td>
-#T=php
-<?php
-	^!
-?>
-#T=echo
-<?=^!?>
-#T=phpe
-<?php ^! ?>
-#T=if
-<?php if(^!): ?>
-#T=#if
-{if ^!}
-#T=#else
-{/else}
-#T=#endif
-{/if}
-#T=#foreach
-{foreach ^!}
-#T=#elseforeach
-{/elseforeach}
-#T=#endforeach
-{/foreach}
 #T=#loop
-{loop}
-#T=#eloop
+{loop ^! $v}	
 {/loop}
