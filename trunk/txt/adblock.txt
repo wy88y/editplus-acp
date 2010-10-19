@@ -1,0 +1,14 @@
+(Adblock Plus 0.7 or higher required) [Adblock]
+! Checksum: N1gGh01nV3BhZXI8u1WRTw
+@@|https://ssl.google-analytics.com/*
+|http://gg.blueidea.com/*
+/(.*)google(.*)\.js/
+http://gg.blueidea.com/*.*
+|http://js.lov9.net/*
+|http://static.googleadsserving.cn/pagead/*
+https://www.google.com/uds/api/feeds/1.0/4af0f9d507d970221e7badc56cb6f35a/default+zh_CN.I.js
+|http://60.190.163.118/*
+|http://cache.tv.qq.com/images/ad*.jpg
+*favicon.gif
+blueidea.com##div#header
+qq.com##div#ad*

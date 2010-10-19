@@ -1,0 +1,262 @@
+#TITLE=HTML
+; EditPlus HTML Auto-Complete File V1.0 - July 2010.
+; Written By Dave McNally, http://enlivenlabs.com
+
+#CASE=n
+
+; Basic HTML5 Page.
+
+#T=#html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>			
+  <title>^!</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+</head>
+
+	<body>
+	</body>
+
+</html>
+#
+
+; Head Elements.
+
+#T=#js
+<script src="^!"></script>
+#T=#style
+<style type="text/css">
+	^!
+</style>
+#T=#css
+<link rel="stylesheet" href="^!" />
+#T=#script
+<script type="text/javascript">
+	^!
+</script>
+#
+; Standard Text Elements.
+
+#T=#p
+<p>^!</p>
+#T=#h1
+<h1>^!</h1>
+#T=#h2
+<h2>^!</h2>
+#T=#h3
+<h3>^!</h3>
+#T=#h4
+<h4>^!</h4>
+#T=#h5
+<h5>^!</h5>
+#T=#h6
+<h6>^!</h6>
+#
+
+; HTML 5 Structural. Check To Update And Change
+
+#T=#section
+<section>^!</section>
+#T=#header
+<header>^!</header>
+#T=#footer
+<footer>^!</footer>
+#T=#aside
+<aside>^!</aside>
+#T=#nav
+<nav>^!</nav>
+#T=#article
+<article>^!</article>
+#T=#hgroup
+<hgroup>^!</hgroup>
+#
+
+; Other Text Elements.
+
+#T=#mark
+<mark>^!</mark>
+#T=#small
+<small>^!</small>
+#T=#strong
+<strong>^!</strong>
+#T=#em
+<em>^!</em>
+#T=#a
+<a href="^!" title=""></a>
+#T=#blockquote
+<blockquote>^!</blockquote>
+#T=#cite
+<cite>^!</cite>
+#
+
+; List Elements.
+
+#T=#ul
+<ul>
+	<li>^!</li>
+</ul>
+#T=#ol
+<ol>
+	<li>^!</li>
+</ol>
+#T=#dl
+<dl>
+  <dt>^!</dt>
+	<dd></dd>
+</dl>
+#
+
+; General Elements.
+
+#T=#div
+<div>^!</div>
+
+#T=#abbr
+<abbr>^!</abbr>
+#T=#time
+<time>^!</time>
+#T=#meter
+<meter>^!</meter>
+#T=#progress
+<progress>^!</progress>
+
+#T=#br
+<br />
+#T=#nb
+&nbsp;
+#T=#hr
+<hr>
+#T=#img
+<img src="^!" alt="" width="" height="" />
+#T=#pre
+<pre>^!</pre>
+#T=#canvas
+<canvas width="" height="">^!</canvas>
+#T=#audio
+<audio controls preload="">
+  <source src="^!" type="audio/ogg" />
+  <source src="" type="audio/mpeg" />
+</audio>
+#T=#video
+<video width="^!" height="" controls preload="" poster="">
+  <source src="" type="video/ogg" />
+  <source src="" type="video/mp4" />
+</video>
+#
+
+; Misc Elements.
+
+#T=#<!
+<!-- ^! -->
+#
+
+; Forms.
+
+#T=#form
+<form method=post action="">
+^!
+</form>
+
+#T=#datalist
+<datalist>
+  <option value="^!">
+</datalist
+
+#T=#search
+<input type="search" name="^!">
+#T=#email
+<input type="email" name="^!">
+#T=#url
+<input type="url" name="^!">
+#T=#tel
+<input type="tel" name="^!">
+
+#T=#range
+<input type="range" min="" max="" name="^!">
+#T=#number
+<input type="number" min="" max="" name="^!">
+
+#T=#date
+<input type="date" name="^!">
+#T=#datetime
+<input type="datetime" name="^!">
+#T=#datetimelocal
+<input type="datetime-local" name="^!">
+#T=#time
+<input type="time" name="^!">
+#T=#month
+<input type="month" name="^!">
+#T=#week
+<input type="week" name="^!">
+
+#T=#color
+<input type="color" name="^!">
+
+#T=#text
+<input type="text" name="" placeholder="^!">
+#T=#select
+<select name="">^!</select>
+#T=#radio
+<input type="radio" name="^!">
+#T=#checkbox
+<input type="checkbox" name="^!">
+#T=#textarea
+<textarea name="" rows="" cols="">^!</textarea>
+#T=#reset
+<input type="reset">
+#T=#submit
+<input type="submit">
+#T=#password
+<input type="password">
+#T=#hidden
+<input type="hidden">
+#T=#formimage
+<input type="image" src="^!">
+#
+
+; Tables. Shudder.
+
+#T=#table
+<table cellpadding="0" cellspacing="0">
+<tr>
+	<th>^!</th>
+</tr>   
+<tr>
+	<td></td>
+</tr>
+</table>
+
+#T=#tr
+<tr>^!</tr>
+#T=#td
+<td>^!</td>
+#T=php
+<?php
+	^!
+?>
+#T=echo
+<?=^!?>
+#T=phpe
+<?php ^! ?>
+#T=if
+<?php if(^!): ?>
+#T=#if
+{if ^!}
+#T=#else
+{/else}
+#T=#endif
+{/if}
+#T=#foreach
+{foreach ^!}
+#T=#elseforeach
+{/elseforeach}
+#T=#endforeach
+{/foreach}
+#T=#loop
+{loop}
+#T=#eloop
+{/loop}
