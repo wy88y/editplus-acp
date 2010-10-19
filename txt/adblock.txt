@@ -1,5 +1,4 @@
 (Adblock Plus 0.7 or higher required) [Adblock]
-! Checksum: N1gGh01nV3BhZXI8u1WRTw
 @@|https://ssl.google-analytics.com/*
 |http://gg.blueidea.com/*
 /(.*)google(.*)\.js/
@@ -10,10 +9,6 @@ https://www.google.com/uds/api/feeds/1.0/4af0f9d507d970221e7badc56cb6f35a/defaul
 |http://60.190.163.118/*
 |http://cache.tv.qq.com/images/ad*.jpg
 *favicon.gif
-blueidea.com##div#header
-qq.com##div#ad*
-[Adblock Plus 1.1]
-! Checksum: 3Xi4j1QH9y8pm71zS/sGgA
 @@|http://www.tudou.com/home/sbfyj/|$document
 @@||tongji.linezing.com^$document
 @@||jiankongbao.com^$document
@@ -49,4 +44,5 @@ live.qq.com##div[id^=ad_]
 renren.com##div[id=header-wide-banner]
 163.com##*[class^=gg]
 97kav.info##div[id=qqaddiv]
-
+blueidea.com##div#header
+qq.com##div#ad*	  
