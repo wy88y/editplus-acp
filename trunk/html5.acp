@@ -6,7 +6,7 @@
 
 ; Basic HTML5 Page.
 
-#T=#html
+#T=HTML5
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,79 +26,78 @@
 
 ; Head Elements.
 
-#T=#js
-<script src="^!"></script>
-#T=#css
+#T=script
+<script type="text/javascript">
+^!
+</script>
+#T=LINKSTYLE
 <link rel="stylesheet" href="^!" />
 #
 
 ; Standard Text Elements.
 
-#T=#p
+#T=P
 <p>^!</p>
-#T=#h1
+#T=H1
 <h1>^!</h1>
-#T=#h2
+#T=H2
 <h2>^!</h2>
-#T=#h3
+#T=H3
 <h3>^!</h3>
-#T=#h4
+#T=H4
 <h4>^!</h4>
-#T=#h5
+#T=H5
 <h5>^!</h5>
-#T=#h6
+#T=H6
 <h6>^!</h6>
-#T=#p
-<p>^!</p>
-#
 
 ; HTML 5 Structural. Check To Update And Change
 
-#T=#section
+#T=section
 <section>^!</section>
-#T=#header
+#T=header
 <header>^!</header>
-#T=#footer
+#T=footer
 <footer>^!</footer>
-#T=#aside
+#T=aside
 <aside>^!</aside>
-#T=#nav
+#T=nav
 <nav>^!</nav>
-#T=#article
+#T=article
 <article>^!</article>
-#T=#hgroup
+#T=hgroup
 <hgroup>^!</hgroup>
 #
 
 ; Other Text Elements.
 
-#T=#mark
+#T=mark
 <mark>^!</mark>
-#T=#small
+#T=small
 <small>^!</small>
-#T=#strong
+#T=strong
 <strong>^!</strong>
-#T=#em
+#T=em
 <em>^!</em>
-#T=#a
+#T=a
 <a href="^!" title=""></a>
-#T=#blockquote
+#T=blockquote
 <blockquote>^!</blockquote>
-#T=#cite
+#T=cite
 <cite>^!</cite>
 #
 
 ; List Elements.
 
-#T=#ul
+#T=ul
 <ul>
 	<li>^!</li>
 </ul>
-#T=#ol
+#T=ol
 <ol>
 	<li>^!</li>
 </ol>
-#T=#dl
+#T=dl
 <dl>
   <dt>^!</dt>
 	<dd></dd>
@@ -106,39 +105,39 @@
 #
 
 ; General Elements.
-#T=#div
+#T=DIV
 <div>^!</div>
-#T=#divc
+#T=DIVC
 <div class="^!"></div>
-#T=#divi
+#T=DIVI
 <div id="^!"></div>
-#T=#abbr
+#T=abbr
 <abbr>^!</abbr>
-#T=#time
+#T=time
 <time>^!</time>
-#T=#meter
+#T=meter
 <meter>^!</meter>
-#T=#progress
+#T=progress
 <progress>^!</progress>
 
-#T=#br
+#T=br
 <br />
-#T=#nb
+#T=nb
 &nbsp;
-#T=#hr
+#T=hr
 <hr>
-#T=#img
+#T=IMG
 <img src="^!" alt="" width="" height="" />
-#T=#pre
+#T=PRE
 <pre>^!</pre>
-#T=#canvas
+#T=canvas
 <canvas width="" height="">^!</canvas>
-#T=#audio
+#T=audio
 <audio controls preload="">
   <source src="^!" type="audio/ogg" />
   <source src="" type="audio/mpeg" />
 </audio>
-#T=#video
+#T=video
 <video width="^!" height="" controls preload="" poster="">
   <source src="" type="video/ogg" />
   <source src="" type="video/mp4" />
@@ -147,85 +146,93 @@
 
 ; Misc Elements.
 
-#T=#<!
+#T=<!
 <!-- ^! -->
 #
 
 ; Forms.
 
-#T=#form
-<form method="post" action="">
-^!
+#T=FORM
+<form method="post" action="^!">
 </form>
 
-#T=#datalist
+#T=datalist
 <datalist>
   <option value="^!">
 </datalist
 
-#T=#search
+#T=search
 <input type="search" name="^!">
-#T=#email
+#T=email
 <input type="email" name="^!">
-#T=#url
+#T=url
 <input type="url" name="^!">
-#T=#tel
+#T=tel
 <input type="tel" name="^!">
 
-#T=#range
+#T=range
 <input type="range" min="" max="" name="^!">
-#T=#number
+#T=number
 <input type="number" min="" max="" name="^!">
 
-#T=#date
+#T=date
 <input type="date" name="^!">
-#T=#datetime
+#T=datetime
 <input type="datetime" name="^!">
-#T=#datetimelocal
+#T=datetimelocal
 <input type="datetime-local" name="^!">
-#T=#time
+#T=time
 <input type="time" name="^!">
-#T=#month
+#T=month
 <input type="month" name="^!">
-#T=#week
+#T=week
 <input type="week" name="^!">
 
-#T=#color
+#T=color
 <input type="color" name="^!">
 
-#T=#text
+#T=text
 <input type="text" name="" placeholder="^!">
-#T=#select
+#T=select
 <select name="">^!</select>
-#T=#radio
+#T=radio
 <input type="radio" name="^!">
-#T=#checkbox
+#T=checkbox
 <input type="checkbox" name="^!">
-#T=#textarea
+#T=textarea
 <textarea name="" rows="" cols="">^!</textarea>
-#T=#reset
+#T=reset
 <input type="reset">
-#T=#submit
+#T=submit
 <input type="submit">
-#T=#password
+#T=password
 <input type="password">
-#T=#hidden
+#T=hidden
 <input type="hidden">
-#T=#formimage
+#T=formimage
 <input type="image" src="^!">
 #
 
 ; Tables. Shudder.
 
-#T=#table
+#T=TABLE
 <table>
-^!
+	^!
 </table>
 
-#T=#tr
+#T=TR
 <tr>^!</tr>
-#T=#td
+#T=TD
 <td>^!</td>
-#T=#loop
+#T=LOOP
 {loop ^! $v}	
 {/loop}
+#T=php
+<?php
+	^!
+?>
+#T=V
+<?=^!?>  
+
+#T=if:
+{if ^!}

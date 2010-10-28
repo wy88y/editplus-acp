@@ -59,10 +59,6 @@ htmlspecialchars(^!);
 #T=PRC
 date_default_timezone_set('PRC');
 ^!
-#T=PHP
-<?php
-	^!
-?>
 #T=PF
 public function ^!(){
 }
@@ -72,7 +68,7 @@ echo ^!
 get_class_methods();
 #T=gif
 get_included_files();
-#T=IF
+#T=if
 if(^!) {
 }
 #
@@ -81,7 +77,7 @@ while(^!) {
 }
 #
 #T=for
-for(^!) {
+for(^!;;) {
 }
 #T=foreach
 foreach ($^! as $val) {
@@ -89,7 +85,10 @@ foreach ($^! as $val) {
 #
 #T=switch
 switch($^!) {
-case :
+	case :
+	break;
+	default:
+	break;
 }
 #
 #T=DO
@@ -115,10 +114,6 @@ try{
 } catch () {
 }
 #
-#T=ini
-<?php
- ^!
-?>
 #T=CC
 /**
 *
@@ -210,3 +205,5 @@ elseif(^!){
 get_included_files(^!)
 #T=gle
 get_loaded_extensions(^!)
+#T=io
+is_object(^!)
