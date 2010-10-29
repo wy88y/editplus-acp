@@ -19,7 +19,6 @@ https://www.google.com/uds/api/feeds/1.0/4af0f9d507d970221e7badc56cb6f35a/defaul
 @@|http://www6.flash8.net/font/|$document
 @@||www6.flash8.net^$document
 |http://gg.blueidea.com/*
-|http://bbs.blueidea.com/*
 |http://www.cncms.com.cn/*.gif
 |http://dzh.mop.com/static/*
 http://pagead2.googlesyndication.com/*
@@ -40,7 +39,7 @@ http://static.acs86.com/g.js
 |http://img.file.am/91porn/ads/*
 |http://91porn.nu.mu/ads/images/*
 |http://hitn.bdimg.com/%5F%5F%C3%D4%CA%A7%B5%C4%CF%F2%D1%F4%BB%A8/tnfile/item/*
-live.qq.com##div[id^=ad_]
+##div[id^=ad_]
 renren.com##div[id=header-wide-banner]
 163.com##*[class^=gg]
 97kav.info##div[id=qqaddiv]
