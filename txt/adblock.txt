@@ -44,5 +44,5 @@ live.qq.com##div[id^=ad_]
 renren.com##div[id=header-wide-banner]
 163.com##*[class^=gg]
 97kav.info##div[id=qqaddiv]
-blueidea.com##div#header
+bbs.blueidea.com##div#header
 qq.com##div#ad*	  
