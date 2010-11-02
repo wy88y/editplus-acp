@@ -2,7 +2,7 @@
 ; EditPlus HTML Auto-Complete File V1.0 - July 2010.
 ; Written By Dave McNally, http://enlivenlabs.com
 
-#CASE=n
+#CASE=y
 
 ; Basic HTML5 Page.
 
@@ -71,15 +71,15 @@
 
 ; Other Text Elements.
 
-#T=mark
+#T=MARK
 <mark>^!</mark>
-#T=small
+#T=SMALL
 <small>^!</small>
-#T=strong
+#T=STRONG
 <strong>^!</strong>
-#T=em
+#T=EM
 <em>^!</em>
-#T=a
+#T=A
 <a href="^!" title=""></a>
 #T=blockquote
 <blockquote>^!</blockquote>
@@ -89,15 +89,15 @@
 
 ; List Elements.
 
-#T=ul
+#T=UL
 <ul>
 	<li>^!</li>
 </ul>
-#T=ol
+#T=OL
 <ol>
 	<li>^!</li>
 </ol>
-#T=dl
+#T=DL
 <dl>
   <dt>^!</dt>
 	<dd></dd>
@@ -191,48 +191,56 @@
 #T=color
 <input type="color" name="^!">
 
-#T=text
+#T=TEXT
 <input type="text" name="" placeholder="^!">
-#T=select
-<select name="">^!</select>
-#T=radio
+#T=SELECT
+<select name="^!">
+	<option value=""></option>
+</select>
+#T=RADIO
 <input type="radio" name="^!">
-#T=checkbox
+#T=CHECKBOX
 <input type="checkbox" name="^!">
-#T=textarea
+#T=TEXTAREA
 <textarea name="" rows="" cols="">^!</textarea>
-#T=reset
+#T=RESET
 <input type="reset">
-#T=submit
-<input type="submit">
-#T=password
+#T=SUBMIT
+<input type="submit" value="^!">
+#T=PASSWORD
 <input type="password">
-#T=hidden
+#T=HIDDEN
 <input type="hidden">
-#T=formimage
+#T=FORMIMAGE
 <input type="image" src="^!">
 #
 
 ; Tables. Shudder.
 
 #T=TABLE
-<table>
+<table width="100%" cellpadding="0" cellspacing="0">
 	^!
 </table>
 
 #T=TR
-<tr>^!</tr>
+<tr>
+	<td>^!</td>
+</tr>
+#T=TR2
+<tr>
+	<th>^!</th>
+</tr>
 #T=TD
 <td>^!</td>
 #T=LOOP
 {loop ^! $v}	
 {/loop}
-#T=php
+#T=PHP
 <?php
 	^!
 ?>
 #T=V
 <?=^!?>  
 
-#T=if:
+#T=IF
 {if ^!}
