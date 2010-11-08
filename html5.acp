@@ -26,16 +26,19 @@
 
 ; Head Elements.
 
-#T=script
+#T=SCRIPT
 <script type="text/javascript">
 ^!
 </script>
 #T=LINKSTYLE
 <link rel="stylesheet" href="^!" />
 #
+#T=STYLE
+<style type="text/css">
+^!
+</style>
 
 ; Standard Text Elements.
-
 #T=P
 <p>^!</p>
 #T=H1
@@ -150,11 +153,7 @@
 <!-- ^! -->
 #
 
-; Forms.
 
-#T=FORM
-<form method="post" action="^!">
-</form>
 
 #T=datalist
 <datalist>
@@ -232,15 +231,43 @@
 </tr>
 #T=TD
 <td>^!</td>
+
+
+;Form 
+#T=FORM
+<form method="post" action="^!">
+</form>
+#T=input
+<input type="text" name="^!" />
+#T=input:pwd
+<input type="password" name="^!" />
+#T=input:file
+<input type="file" name="^!" />	  
+#T=input:submit
+<input type="submit" value="^!" />
+
+
+;Template
+#T=IF
+{if ^!}	  
+#T=ELSE
+{else}
+^!
+#T=ELSEIF
+{elseif ^!}
+#T=ENDIF
+{/if}  
 #T=LOOP
 {loop ^! $v}	
-{/loop}
+{/loop}	     
+
+;PHP script
 #T=PHP
 <?php
 	^!
 ?>
 #T=V
-<?=^!?>  
+<?=^!?>
 
 #T=IF
 {if ^!}
