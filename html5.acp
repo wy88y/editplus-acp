@@ -209,7 +209,7 @@
 #T=PASSWORD
 <input type="password">
 #T=HIDDEN
-<input type="hidden">
+<input type="hidden" name="^!" value="">
 #T=FORMIMAGE
 <input type="image" src="^!">
 #
