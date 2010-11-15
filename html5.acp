@@ -30,6 +30,8 @@
 <script type="text/javascript">
 ^!
 </script>
+#T=LINKSCRIPT
+<script type="text/javascript" src="^!"></script>
 #T=LINKSTYLE
 <link rel="stylesheet" href="^!" />
 #
@@ -236,6 +238,10 @@
 ;Form 
 #T=FORM
 <form method="post" action="^!">
+</form>
+#T=FORMUPLOAD
+<form method="post" enctype="multipart/form-data" action="post">
+^!
 </form>
 #T=input
 <input type="text" name="^!" />
