@@ -116,28 +116,30 @@ try{
 #
 #T=CC
 /**
+*	^!
 *
-*               @Description
-*               @Author
+*	@Description
+*	@Author
 *
 */
 #T=FC
 /**
- *		^!
- *
- *		@param 
- *		@return 
- */  
+*	^!
+*
+*	@param 
+*	@return    
+*
+*/  
 #T=CT
- /**
- *		^!
- * 
- *		@category 
- *		@package 
- *		@copyright Copyright (c) 2010 Lin.X
- *		@license GNU General Public License 2.0
- *		@version $Id$
- */
+/**
+*       ^!
+*
+*	@category
+*       @package
+*       @copyright Copyright (c) 2010 Lin.X
+*       @license GNU General Public License 2.0
+*       @version $Id$
+*/
 #T=gls
 ->getLastSql()
 #T=lw
