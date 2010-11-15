@@ -11,35 +11,45 @@
 *
 *
 */
-#T=MA
-margin:^!;
-#T=PA
-padding:^!;
-#T=FS
-font-size:^!;
-#T=B
-border:^!;
-#T=B1
-border:1px solid #^!;
-#T=wd
-width:^!;
-#T=ht
-height:^!;
-#T=bg
-background:^!;
-#T=lh
-line-height:^!;
-#T=bc	      
-background-color:^!;
-#T=bd
-border:^!;
-#T=borde
-border-left
-#T=borde
-border-top
-#T=borde
-border-bottom
-#T=text-
-text-align
-#T=margi
+;2010-11-15 17:34:54
+#T=mb
 margin-bottom
+;2010-11-15 17:34:58
+#T=fs
+font-size
+;2010-11-15 17:34:59
+#T=lh
+line-height
+;2010-11-15 17:35:00
+#T=bb
+border-bottom
+;2010-11-15 17:35:02
+#T=paddi
+padding
+;2010-11-15 17:36:27
+#T=backg
+background
+;2010-11-15 17:36:28
+#T=ta
+text-align
+;2010-11-15 17:36:29
+#T=pr
+padding-right
+;2010-11-15 17:36:33
+#T=td
+text-decoration
+;2010-11-15 17:36:35
+#T=color
+color
+;2010-11-15 17:36:40
+#T=displ
+display
+;2010-11-15 17:36:41
+#T=heigh
+height
+;2010-11-15 17:36:43
+#T=pl
+padding-left
+;2010-11-15 17:39:02
+#T=mbr
+-moz-border-radius
