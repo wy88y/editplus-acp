@@ -39,7 +39,7 @@
 <style type="text/css">
 ^!
 </style>
-
+#
 ; Standard Text Elements.
 #T=P
 <p>^!</p>
@@ -233,8 +233,7 @@
 </tr>
 #T=TD
 <td>^!</td>
-
-
+#
 ;Form 
 #T=FORM
 <form method="post" action="^!">
@@ -251,7 +250,7 @@
 <input type="file" name="^!" />	  
 #T=input:submit
 <input type="submit" value="^!" />
-
+#
 
 ;Template
 #T=IF
@@ -266,7 +265,7 @@
 #T=LOOP
 {loop ^! $v}	
 {/loop}	     
-
+#
 ;PHP script
 #T=PHP
 <?php
