@@ -10,58 +10,46 @@
 *
 */
 #
-;2010-11-15 17:34:54
-#T=mb
-margin-bottom
-#
-;2010-11-15 17:34:58
-#T=fs
-font-size
-#
-;2010-11-15 17:34:59
-#T=lh
-line-height
-#
-;2010-11-15 17:35:00
-#T=bb
-border-bottom
-#
-;2010-11-15 17:35:02
-#T=paddi
-padding
-#
-;2010-11-15 17:36:27
-#T=backg
-background
-#
-;2010-11-15 17:36:28
-#T=ta
-text-align
-#
-;2010-11-15 17:36:29
-#T=pr
-padding-right
-#
-;2010-11-15 17:36:33
+;2010-11-19 14:16:26
 #T=td
-text-decoration
+text-decoration:^!;
 #
-;2010-11-15 17:36:35
-#T=color
-color
+;2010-11-19 14:16:28
+#T=fs
+font-size:^!;
 #
-;2010-11-15 17:36:40
-#T=displ
-display
+;2010-11-19 14:16:29
+#T=bc
+border-collapse:^!;
 #
-;2010-11-15 17:36:41
-#T=heigh
-height
+;2010-11-19 14:16:30
+#T=ls
+list-style:^!;
 #
-;2010-11-15 17:36:43
+;2010-11-19 14:16:32
+#T=ff
+font-family:^!;
+#
+;2010-11-19 14:16:34
+#T=ta
+text-align:^!;
+#
+;2010-11-19 14:16:37
 #T=pl
-padding-left
+padding-left:^!;
 #
-;2010-11-15 17:39:02
+;2010-11-19 14:16:38
 #T=mbr
--moz-border-radius
+-moz-border-radius:^!;
+#
+;2010-11-19 14:16:43
+#T=o
+outline:^!;
+#
+;2010-11-19 14:16:50
+#T=m
+margin:^!;
+#
+;2010-11-19 16:28:01
+#T=lh
+line-height:^!;
