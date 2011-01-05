@@ -124,7 +124,10 @@
 <meter>^!</meter>
 #T=progress
 <progress>^!</progress>
-
+#T=SPAN
+<span>^!</span>
+#T=P
+<p>^!</p>
 #T=br
 <br />
 #T=nb

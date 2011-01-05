@@ -35,8 +35,6 @@ include 'E:\code\lib\debug.php';^!
 public function __construct(){
 	parent::__construct();^!
 }
-#T=P
-print_a(^!);
 #T=dp
 dp(^!);
 #T=GE
@@ -46,8 +44,6 @@ $_POST['^!']
 #T=F
 function ^!(){
 }
-#T=p
-p(^!);
 #T=k
 (^!)
 #T=pr
@@ -115,12 +111,11 @@ try{
 }
 #
 #T=CC
-/**
-*	^!
-*
-*	@Description
-*	@Author
-*
+/*
+*       ^!
+*       @author                 leosio <http://www.leosio.com>
+*       @description            
+*       @date                   
 */
 #T=FC
 /**
@@ -131,15 +126,15 @@ try{
 *
 */  
 #T=CT
-/**
-*       ^!
-*
-*	@category
-*       @package
-*       @copyright Copyright (c) 2010 Lin.X
-*       @license GNU General Public License 2.0
-*       @version $Id$
-*/
+ /**
+ *		^!
+ * 
+ *		@category 
+ *		@package 
+ *		@copyright Copyright (c) 2010 leosio
+ *		@license GNU General Public License 2.0
+ *		@version $Id$
+ */
 #T=gls
 ->getLastSql()
 #T=lw
