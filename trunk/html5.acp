@@ -283,3 +283,15 @@
 #T=SPAN
 <span>^!</span>
 #
+#T=FE
+<?php if(is_array(^!) && !empty(^!)): ?>
+<?php foreach(^! as $v): ?>
+<?php endforeach; ?>
+<?php else:?>
+<?php endif; ?>	   
+#
+#T=zif
+<?php if(^!): ?>
+<?php else:?>
+<?php endif; ?>	   
+#
