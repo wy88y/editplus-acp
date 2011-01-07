@@ -44,8 +44,6 @@ $_POST['^!']
 #T=F
 function ^!(){
 }
-#T=k
-(^!)
 #T=pr
 print_r(^!);
 #T=di
@@ -204,3 +202,6 @@ get_included_files(^!)
 get_loaded_extensions(^!)
 #T=io
 is_object(^!)
+#T=error_log
+error_log($message . "\r\n", 3, dirname(__FILE__) . '/dump.log');
+#
