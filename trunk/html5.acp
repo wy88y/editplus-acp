@@ -271,9 +271,12 @@
 #
 ;PHP script
 #T=PHP
-<?php
+<?php ^! ?>
+#T=PHP2
+<?php echo ^! ?>
+#T=PHP3
+<?php 
 	^!
-?>
 #T=V
 <?=^!?>
 #
@@ -294,4 +297,19 @@
 <?php if(^!): ?>
 <?php else:?>
 <?php endif; ?>	   
+#
+#T=THEAD
+<thead>
+	^!
+</thead>
+#
+#T=TBODY
+<tbody>
+	^!
+</tbody>
+#
+#T=TFOOT
+<tfoot>
+	^!
+</tfoot>
 #
