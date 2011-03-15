@@ -109,11 +109,12 @@ try{
 }
 #
 #T=CC
-/*
-*       ^!
-*       @author                 leosio <http://www.leosio.com>
-*       @description            
-*       @date                   
+/**
+*  ^!
+*
+*  @author                      leosio <http://www.leosio.com>
+*  @description
+*  @date
 */
 #T=FC
 /**
