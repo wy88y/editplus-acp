@@ -3,7 +3,7 @@
 ; This file is provided as a default auto-completion file for CSS.
 #CASE=y
 #T=C
-/**^!**/
+/* ^! */
 #T=M
 /*
 *
