@@ -196,7 +196,7 @@
 <input type="color" name="^!">
 
 #T=TEXT
-<input type="text" name="" placeholder="^!">
+<input type="text" name="^!" value="">
 #T=SELECT
 <select name="^!">
 	<option value=""></option>
@@ -312,4 +312,11 @@
 <tfoot>
 	^!
 </tfoot>
+# 
+#T=FE2
+<?php foreach(^! as $v): ?>
+<?php endforeach; ?>
+#
+#T=ECHO
+<?php echo ^!;?>
 #
