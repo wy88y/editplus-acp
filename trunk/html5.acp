@@ -320,3 +320,6 @@
 #T=ECHO
 <?php echo ^!;?>
 #
+#T=IFRAME
+<iframe width="" height="" name="hidentarget" id="^!"></iframe>
+#
