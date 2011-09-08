@@ -121,7 +121,9 @@ try{
 *	^!
 *
 *	@param 
-*	@return    
+*	@return   
+*	@data	   
+*	@author lin.x	
 *
 */  
 #T=CT
