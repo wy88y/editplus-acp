@@ -15,7 +15,9 @@
 ;
 ;CSS3 >>>
 ;
--moz-border-radius
+-moz-border-radius     
+-moz-border-radius-topleft
+-moz-border-radius-topright
 -webkit-border-radius
 -o-border-radius
 -moz-box-shadow
