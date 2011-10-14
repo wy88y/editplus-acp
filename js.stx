@@ -59,6 +59,7 @@ while
 with
 
 #KEYWORD=Objects
+Msg
 ActiveXObject
 Array
 Boolean
@@ -192,7 +193,6 @@ options
 pages
 plugins
 rows
-rules
 scripts
 StaticNodeList
 styleSheets
@@ -606,7 +606,6 @@ rows
 rubyAlign
 rubyOverhang
 rubyPosition
-rules
 saveType
 scheme
 scope
@@ -1253,7 +1252,12 @@ updateSettings
 urns
 write
 writeln
-
+; MSG
+accept
+warning
+notice
+alert
+#
 #KEYWORD=WSH Properties
 Arguments
 AtEndOfLine
@@ -1349,7 +1353,6 @@ StdErr
 WScript
 
 #KEYWORD=jQuery Methods
-$
 add
 addClass
 after
@@ -1510,4 +1513,18 @@ width
 wrap
 wrapAll
 wrapInner
+#
+
+#KEYWORD=jQuery Prototpye
+rules
+messages
+submitHandler
+errorElement
+errorPlacement
+errorClass
+highlight
+dataType
+sccuess
+type
+url
 #

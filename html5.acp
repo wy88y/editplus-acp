@@ -260,6 +260,9 @@
 #T=input:button
 <input type="button" value="^!" />
 #
+#T=input:radio
+<input id="" type="radio" name="^!" value="" />
+#
 
 ;Template
 #T=IF
@@ -329,3 +332,5 @@
 #T=IFRAME
 <iframe width="" height="" name="hidentarget" id="^!"></iframe>
 #
+#T=label
+<label for="^!"></label>
