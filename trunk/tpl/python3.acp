@@ -1,0 +1,8 @@
+#TITLE=Python 3
+#CASE=y     
+#T=pt
+print(^!)
+#T=stdout
+sys.stdout.write(^!)	 
+#T=im
+import ^!

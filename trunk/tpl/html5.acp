@@ -1,0 +1,336 @@
+#TITLE=HTML
+; EditPlus HTML Auto-Complete File V1.0 - July 2010.
+; Written By Dave McNally, http://enlivenlabs.com
+
+#CASE=y
+
+; Basic HTML5 Page.
+
+#T=HTML5
+<!DOCTYPE html>
+<html lang="en">
+
+<head>			
+  <title>^!</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+</head>
+
+	<body>
+	</body>
+
+</html>
+#
+
+; Head Elements.
+
+#T=SCRIPT
+<script type="text/javascript">
+^!
+</script>
+#T=LINKSCRIPT
+<script type="text/javascript" src="^!"></script>
+#T=LINKSTYLE
+<link rel="stylesheet" href="^!" />
+#
+#T=STYLE
+<style type="text/css">
+^!
+</style>
+#
+; Standard Text Elements.
+#T=P
+<p>^!</p>
+#T=H1
+<h1>^!</h1>
+#T=H2
+<h2>^!</h2>
+#T=H3
+<h3>^!</h3>
+#T=H4
+<h4>^!</h4>
+#T=H5
+<h5>^!</h5>
+#T=H6
+<h6>^!</h6>
+
+; HTML 5 Structural. Check To Update And Change
+
+#T=section
+<section>^!</section>
+#T=header
+<header>^!</header>
+#T=footer
+<footer>^!</footer>
+#T=aside
+<aside>^!</aside>
+#T=nav
+<nav>^!</nav>
+#T=article
+<article>^!</article>
+#T=hgroup
+<hgroup>^!</hgroup>
+#
+
+; Other Text Elements.
+
+#T=MARK
+<mark>^!</mark>
+#T=SMALL
+<small>^!</small>
+#T=STRONG
+<strong>^!</strong>
+#T=EM
+<em>^!</em>
+#T=A
+<a href="^!" title=""></a>
+#T=blockquote
+<blockquote>^!</blockquote>
+#T=cite
+<cite>^!</cite>
+#
+
+; List Elements.
+
+#T=UL
+<ul>
+	<li>^!</li>
+</ul>
+#T=OL
+<ol>
+	<li>^!</li>
+</ol>
+#T=DL
+<dl>
+  <dt>^!</dt>
+	<dd></dd>
+</dl>  
+#T=LI
+<li></li>
+#T=LIA
+<li><a href="" title="">^!</a></li>
+#
+
+; General Elements.
+#T=DIV
+<div>^!</div>
+#T=DIVC
+<div class="^!"></div>
+#T=DIVI
+<div id="^!"></div>
+#T=abbr
+<abbr>^!</abbr>
+#T=time
+<time>^!</time>
+#T=meter
+<meter>^!</meter>
+#T=progress
+<progress>^!</progress>
+#T=SPAN
+<span>^!</span>
+#T=P
+<p>^!</p>
+#T=br
+<br />
+#T=nb
+&nbsp;
+#T=hr
+<hr>
+#T=IMG
+<img src="^!" alt="" width="" height="" />
+#T=PRE
+<pre>^!</pre>
+#T=canvas
+<canvas width="" height="">^!</canvas>
+#T=audio
+<audio controls preload="">
+  <source src="^!" type="audio/ogg" />
+  <source src="" type="audio/mpeg" />
+</audio>
+#T=video
+<video width="^!" height="" controls preload="" poster="">
+  <source src="" type="video/ogg" />
+  <source src="" type="video/mp4" />
+</video>
+#
+
+; Misc Elements.
+
+#T=<!
+<!-- ^! -->
+#
+
+
+
+#T=datalist
+<datalist>
+  <option value="^!">
+</datalist
+
+#T=search
+<input type="search" name="^!">
+#T=email
+<input type="email" name="^!">
+#T=url
+<input type="url" name="^!">
+#T=tel
+<input type="tel" name="^!">
+
+#T=range
+<input type="range" min="" max="" name="^!">
+#T=number
+<input type="number" min="" max="" name="^!">
+
+#T=date
+<input type="date" name="^!">
+#T=datetime
+<input type="datetime" name="^!">
+#T=datetimelocal
+<input type="datetime-local" name="^!">
+#T=time
+<input type="time" name="^!">
+#T=month
+<input type="month" name="^!">
+#T=week
+<input type="week" name="^!">
+
+#T=color
+<input type="color" name="^!">
+
+#T=TEXT
+<input type="text" name="^!" value="">
+#T=SELECT
+<select name="^!">
+	<option value=""></option>
+</select>
+#T=RADIO
+<input type="radio" name="^!">
+#T=CHECKBOX
+<input type="checkbox" name="^!">
+#T=TEXTAREA
+<textarea name="" rows="" cols="">^!</textarea>
+#T=RESET
+<input type="reset">
+#T=SUBMIT
+<input type="submit" value="^!">
+#T=PASSWORD
+<input type="password">
+#T=HIDDEN
+<input type="hidden" name="^!" value="">
+#T=FORMIMAGE
+<input type="image" src="^!">
+#
+
+; Tables. Shudder.
+
+#T=TABLE
+<table width="100%" cellpadding="0" cellspacing="0">
+	^!
+</table>
+
+#T=TR
+<tr>
+	<td>^!</td>
+</tr>
+#T=TR2
+<tr>
+	<th>^!</th>
+</tr>
+#T=TD
+<td>^!</td>
+#
+;Form 
+#T=FORM
+<form method="post" action="^!">
+</form>
+#T=FORMUPLOAD
+<form method="post" enctype="multipart/form-data" action="post">
+^!
+</form>
+#T=input
+<input type="text" name="^!" />
+#T=input:pwd
+<input type="password" name="^!" />
+#T=input:file
+<input type="file" name="^!" />	  
+#T=input:submit
+<input type="submit" value="^!" />
+#T=input:button
+<input type="button" value="^!" />
+#
+#T=input:radio
+<input id="" type="radio" name="^!" value="" />
+#
+
+;Template
+#T=IF
+{if ^!}	  
+#T=ELSE
+{else}
+^!
+#T=ELSEIF
+{elseif ^!}
+#T=ENDIF
+{/if}  
+#T=LOOP
+{loop ^! $v}	
+{/loop}	     
+#
+;PHP script
+#T=PHP
+<?php ^! ?>
+#T=PHP2
+<?php echo ^! ?>
+#T=PHP3
+<?php 
+	^!
+#T=V
+<?=^!?>
+#
+#T=IF
+{if ^!}
+#
+#T=SPAN
+<span>^!</span>
+#
+#T=FE
+<?php if(is_array(^!) && !empty(^!)): ?>
+<?php foreach(^! as $v): ?>
+<?php endforeach; ?>
+<?php else:?>
+<?php endif; ?>	   
+#
+#T=zif
+<?php if(^!): ?>
+<?php else:?>
+<?php endif; ?>	   
+#
+#T=THEAD
+<thead>
+	^!
+</thead>
+#
+#T=TBODY
+<tbody>
+	^!
+</tbody>
+#
+#T=TFOOT
+<tfoot>
+	^!
+</tfoot>
+# 
+#T=FE2
+<?php foreach(^! as $v): ?>
+<?php endforeach; ?>
+#
+#T=ECHO
+<?php echo ^!;?>
+#
+#T=IFRAME
+<iframe width="" height="" name="hidentarget" id="^!"></iframe>
+#
+#T=label
+<label for="^!"></label>
