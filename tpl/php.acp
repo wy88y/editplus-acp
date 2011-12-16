@@ -8,12 +8,6 @@
 ->^!
 #T=mt3	
 ->^!();
-#T=xx	
-'^!'
-#T=cc	
-"^!"
-#T=zz
-(^!)
 #T=ar
 =>
 #T=ar2
@@ -158,12 +152,6 @@ get_declared_classes(^!);
 echo '<pre>';
 print_r(^!);
 echo '</pre>';
-#T=_d
-{^!}
-#T=_z
-[^!]
-#T=_x
-(^!)
 #T=inar
 in_array(^!)
 #T=isar

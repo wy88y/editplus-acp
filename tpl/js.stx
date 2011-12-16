@@ -25,7 +25,8 @@
 #SUFFIX2=
 #SUFFIX3=
 #SUFFIX4=
-#SUFFIX5=
+#SUFFIX5=    
+#NUMBER_PATTERN=cpp
 
 #KEYWORD=Reserved words
 break
