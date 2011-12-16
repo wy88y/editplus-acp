@@ -7,6 +7,9 @@
 #T=if
 if (^!) {
 }
+#T=elsif
+elsif (^!) {
+}
 #T=unless
 unless (^!) {
 }
