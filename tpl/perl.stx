@@ -2,7 +2,7 @@
 ; Perl syntax file written by ES-Computing.
 ; This file is required for EditPlus to run correctly.
 
-#DELIMITER=,(){}[]-+*/=~!&|<>?:;.
+#DELIMITER=,(){}[]-+*/=~!&|<>?:;.$@%
 #QUOTATION1='
 #QUOTATION2="
 #CONTINUE_QUOTE=n
@@ -12,6 +12,7 @@
 #PREFIX3=$
 #PREFIX4=@
 #PREFIX5=%
+#PREFIX6=*
 #HEREDOC=<<EOF
 #NUMBER_PATTERN=cpp
 #SPECIAL_STX=perl
@@ -75,6 +76,7 @@ qw
 $
 @
 %
+*
 
 #KEYWORD=Built-in functions
 abs

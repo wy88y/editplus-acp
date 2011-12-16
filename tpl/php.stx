@@ -7,7 +7,7 @@
 
 #CASE=n
 
-#DELIMITER=,(){}[]-+*%/="`'~!&|<>?:;.#@<<<
+#DELIMITER=,(){}[]-+*%/="`'~!&|<>?:;.#@<<<$
 #QUOTATION1='
 #QUOTATION2="
 #CONTINUE_QUOTE=n
@@ -20,9 +20,12 @@
 #ESCAPE=\
 #PREFIX1=
 #PREFIX2=
-#PREFIX3=$
+#PREFIX3=
 #PREFIX4=
 #PREFIX5=
+#PREFIX6=$
+#PREFIX7=get
+#PREFIX8=set
 #SUFFIX1=
 #SUFFIX2=
 #SUFFIX3=
@@ -35,10 +38,10 @@
 #NUMBER_PATTERN=cpp
 #SKIP_QUOTE=y
 
-#KEYWORD=Reserved words [1]
+#KEYWORD=Reserved words [1]  
+$  		
 -
 !
-$
 %
 &
 /
@@ -51,6 +54,10 @@ $
 >
 {
 }
+(
+)
+[
+]
 __CLASS__
 __DIR__
 __FILE__
@@ -198,7 +205,6 @@ template_dir
 trusted_dir
 undefined
 use_sub_dirs
-username
 
 ; *******************************************************************
 ; *******************************************************************
@@ -783,7 +789,6 @@ cyrus_close
 cyrus_connect
 cyrus_query
 cyrus_unbind
-data
 data_seek
 date
 date_create
@@ -2794,7 +2799,6 @@ libxml_use_internal_errors
 line
 linearStretchImage
 lineTo
-link
 linkinfo
 literal
 load
@@ -6067,7 +6071,6 @@ timezone_offset_get
 timezone_open
 timezone_transitions_get
 tintImage
-title
 tmpfile
 toArray
 toMessageTypeObject
@@ -6482,6 +6485,10 @@ zip_entry_read
 zip_open
 zip_read
 zlib_get_coding_type
+setError
+getError
+set
+get
 
 ; *******************************************************************
 ; *******************************************************************
@@ -9898,4 +9905,12 @@ YPERR_YPERR
 YPERR_YPSERV
 ZEND_THREAD_SAFE
 __COMPILER_HALT_OFFSET__
+#
+#KEYWORD=Customerdefined Variables [6]
+$
+#
+
+#KEYWORD=Get Methods [7]
+#
+#KEYWORD=Set Methods [8]
 #

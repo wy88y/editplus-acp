@@ -1141,7 +1141,8 @@ getClientRects
 getData
 getElementById
 getElementsByName
-getElementsByTagName
+getElementsByTagName   
+getElementsByClassName
 getExpression
 getItem
 getNamedItem
