@@ -6,3 +6,4 @@ print(^!)
 sys.stdout.write(^!)	 
 #T=im
 import ^!
+#
