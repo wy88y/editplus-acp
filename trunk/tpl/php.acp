@@ -60,6 +60,17 @@ get_included_files();
 if(^!) {
 }
 #
+#T=if2
+if(^!) {
+}else(){
+}
+#
+#T=if3
+if(^!) {
+}elseif(){
+}else(){
+}
+#
 #T=while
 while(^!) {
 }
@@ -191,8 +202,25 @@ elseif(^!){
 get_included_files(^!)
 #T=gle
 get_loaded_extensions(^!)
-#T=io
+#T=isob
 is_object(^!)
 #T=error_log
 error_log($message . "\r\n", 3, dirname(__FILE__) . '/dump.log');
+#
+#T=b64e
+base64_encode(^!);
+#
+#T=b64d
+base64_decode(^!);
+#
+#T=e
+echo ^!
+#
+#T=c
+class ^!{
+}
+#
+#T=ce
+class ^! extends ^!{
+}
 #
