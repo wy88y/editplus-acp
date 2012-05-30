@@ -7,3 +7,12 @@ sys.stdout.write(^!)
 #T=im
 import ^!
 #
+#T=h
+ -*- coding: utf-8
+#
+#T=p
+print
+#
+#T=for
+for ^! in :
+#
