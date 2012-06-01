@@ -334,3 +334,15 @@
 #
 #T=label
 <label for="^!"></label>
+#T=pif
+<?php if(^!): ?>
+<?php endif; ?>
+#T=pifel	 
+<?php if(^!): ?>
+<?php else: ?>
+<?php endif; ?>
+#T=pifel2	 
+<?php if(^!): ?>
+<?php elseif(): ?>
+<?php else: ?>
+<?php endif; ?>
