@@ -216,7 +216,7 @@ base64_decode(^!);
 #T=e
 echo ^!
 #
-#T=c
+#T=CLS
 class ^!{
 }
 #
