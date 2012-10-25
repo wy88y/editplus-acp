@@ -23,6 +23,7 @@
 -moz-box-shadow
 -webkit-box-shadow
 -o-box-shadow			
+border-radius
 ;
 ;CSS3 <<<
 ;
