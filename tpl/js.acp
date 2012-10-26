@@ -39,3 +39,11 @@ userAgent
 getElementById
 #T=log
 window.console.log(^!);
+#T=els
+else{
+	^!
+}
+#T=elif
+else if{
+	^!
+}
