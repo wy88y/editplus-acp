@@ -224,3 +224,7 @@ class ^!{
 class ^! extends ^!{
 }
 #
+#T=else
+else{
+	^!
+}
