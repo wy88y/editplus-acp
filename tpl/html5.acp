@@ -345,4 +345,7 @@
 <?php if(^!): ?>
 <?php elseif(): ?>
 <?php else: ?>
-<?php endif; ?>
+<?php endif; ?>		 
+#T=CC
+<!--{^!}-->
+#
