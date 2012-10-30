@@ -1,0 +1,18 @@
+#TITLE=Python 3
+#CASE=y     
+#T=pt
+print(^!)
+#T=stdout
+sys.stdout.write(^!)	 
+#T=im
+import ^!
+#
+#T=h
+ -*- coding: utf-8
+#
+#T=p
+print
+#
+#T=for
+for ^! in :
+#
