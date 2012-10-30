@@ -1,0 +1,261 @@
+;Lin.x
+;2010-8-12 14:23 
+#TITLE=PHP 5.3.2
+#CASE=y     
+#T=mt
+->^!()
+#T=mt2	
+->^!
+#T=mt3	
+->^!();
+#T=ar
+=>
+#T=ar2
+=>array(^!)
+#T=RUNTIME
+$start = microtime(true);
+echo sprintf("%0.4f", microtime(true) - $start);    
+#
+#T=RUNTIME2
+$start = microtime(true);
+while($n++ < 1000000) {
+	^!
+}
+$n = 0;
+echo sprintf("%0.4f", microtime(true) - $start) . PHP_EOL;
+#
+#T=A
+array(^!)
+#T=T
+$this->^!
+#T=V
+$this->view->^!
+#T=Du
+die(dump(^!));
+#T=DBG
+include 'E:\code\rayzee\RayZee\Common\debug.php';^!
+#T=CONSTRUCT
+public function __construct(){
+	parent::__construct();^!
+}
+#T=dp
+dp(^!);
+#T=GE
+$_GET['^!']
+#T=PO
+$_POST['^!']
+#T=F
+function ^!(){
+}
+#T=pr
+print_r(^!);
+#T=di
+die(^!);
+#T=hsc
+htmlspecialchars(^!);
+#T=PRC
+date_default_timezone_set('PRC');
+^!
+#T=PF
+public function ^!(){
+}
+#T=E
+echo ^!
+#T=EL
+echo ^! . PHP_EOL;
+#T=gcm
+get_class_methods();
+#T=gif
+get_included_files();
+#T=if
+if(^!) {
+}
+#
+#T=if2
+if(^!) {
+}else(){
+}
+#
+#T=if3
+if(^!) {
+}elseif(){
+}else(){
+}
+#
+#T=while
+while(^!) {
+}
+#
+#T=for
+for(^!;;) {
+}
+#T=foreach
+foreach ($^! as $val) {
+}
+#
+#T=switch
+switch($^!) {
+	case :
+	break;
+	default:
+	break;
+}
+#
+#T=DO
+do {
+}
+#
+while(^!);
+#T=class
+class ^! {
+}
+#
+#T=function
+function ^!() {
+}
+#
+#T=struct
+struct ^! {
+}
+#
+#T=try
+try{
+ ^!
+} catch () {
+}
+#
+#T=CC
+/**
+*  ^!
+*
+*  @author                      leosio <http://www.leosio.com>
+*  @description
+*  @date
+*/
+#T=FC
+/**
+*	^!
+*
+*	@param 
+*	@return   
+*	@date	   
+*	@author lin.x	
+*
+*/  
+#T=CT
+ /**
+ *		^!
+ * 
+ *		@category 
+ *		@package 
+ *		@copyright Copyright (c) 2010 leosio
+ *		@license GNU General Public License 2.0
+ *		@version $Id$
+ */
+#T=gls
+$^!->getLastSql()
+#T=lw
+Log::write(^!);
+#T=TZ
+date_default_timezone_set('PRC');
+#T=GLS
+getLastSql();
+#T=je
+json_encode(^!);
+#T=jd
+json_decode(^!);
+#T=vd
+var_dump(^!);
+#T=gef
+get_extension_funcs(^!);
+#T=gdc
+get_declared_classes(^!);
+#T=pre
+echo '<pre>';
+print_r(^!);
+echo '</pre>';
+#T=inar
+in_array(^!)
+#T=isar
+is_array(^!)
+#T=empty
+empty(^!)
+#T=strle
+strlen(^!)
+#T=strpo
+strpos(^!)
+#T=subst
+substr(^!)
+#T=fgc
+file_get_contents(^!)
+#T=pma
+preg_match_all(^!)
+#T=fopen
+fopen(^!)
+#T=fwrit
+fwrite(^!)
+#T=explo
+explode(^!)
+#T=strto
+strtolower(^!)
+#T=gh
+get_headers(^!)
+#T=fe
+function_exists(^!)
+#T=au
+array_unique(^!)
+#T=fpc
+file_put_contents(^!)
+#T=elseif
+elseif(^!){
+}
+#T=gif
+get_included_files(^!)
+#T=gle
+get_loaded_extensions(^!)
+#T=isob
+is_object(^!)
+#T=error_log
+error_log($message . "\r\n", 3, dirname(__FILE__) . '/dump.log');
+#
+#T=b64e
+base64_encode(^!);
+#
+#T=b64d
+base64_decode(^!);
+#
+#T=e
+echo ^!
+#
+#T=CLS
+class ^!{
+}
+#
+#T=ce
+class ^! extends ^!{
+}
+#
+#T=else
+else{
+	^!
+}
+#T=ger
+$^!->getError();
+#
+#T=['
+['^!']
+#
+#T=('
+('^!')
+#
+#T=){
+){
+	^!
+}
+#
+#T=spf
+sprintf(^!)
+#
+#T=json
+exit(json_encode(^!));
+#
