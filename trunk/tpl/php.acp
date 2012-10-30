@@ -14,7 +14,16 @@
 =>array(^!)
 #T=RUNTIME
 $start = microtime(true);
-echo sprintf("%0.4f", microtime(true) - $start);
+echo sprintf("%0.4f", microtime(true) - $start);    
+#
+#T=RUNTIME2
+$start = microtime(true);
+while($n++ < 1000000) {
+	^!
+}
+$n = 0;
+echo sprintf("%0.4f", microtime(true) - $start) . PHP_EOL;
+#
 #T=A
 array(^!)
 #T=T
@@ -52,6 +61,8 @@ public function ^!(){
 }
 #T=E
 echo ^!
+#T=EL
+echo ^! . PHP_EOL;
 #T=gcm
 get_class_methods();
 #T=gif
@@ -142,7 +153,7 @@ try{
  *		@version $Id$
  */
 #T=gls
-->getLastSql()
+$^!->getLastSql()
 #T=lw
 Log::write(^!);
 #T=TZ
@@ -228,3 +239,23 @@ class ^! extends ^!{
 else{
 	^!
 }
+#T=ger
+$^!->getError();
+#
+#T=['
+['^!']
+#
+#T=('
+('^!')
+#
+#T=){
+){
+	^!
+}
+#
+#T=spf
+sprintf(^!)
+#
+#T=json
+exit(json_encode(^!));
+#

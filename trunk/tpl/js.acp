@@ -47,3 +47,19 @@ else{
 else if{
 	^!
 }
+#T=click
+click(function(){
+	^!
+});
+#T=post
+$.post('', {}, function(res){
+	^!
+});
+#T=get
+$.get('', {}, function(res){
+	^!
+});
+#T=getjson
+$.getjson('', {}, function(res){
+	^!
+});
